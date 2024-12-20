@@ -37,7 +37,8 @@ h6 {
 }
 
 .section {
-    margin: 2rem inherit;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
