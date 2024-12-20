@@ -23,3 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
