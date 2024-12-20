@@ -5,23 +5,39 @@
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', sans-serif;
-    --primary-color: #416a8e; /* blue */
-    --secondary-color: #aa9581; /* orange */
-    --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #7a9fc2; /* light blue */
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
 }
+
+/* Global styles */
 
 body {
     font-family: var(--primary-font);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin: 2rem inherit;
 }
 
 /* Navbar */
@@ -31,4 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar .logo {
     width: 30px;
+}
+
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
 }
