@@ -49,6 +49,13 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.badge {
+    background-color: var(--highlight-color);
+    border-radius: 0;
+    line-height: inherit;
+    padding: 5px;
+}
+
 /* Buttons */
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
